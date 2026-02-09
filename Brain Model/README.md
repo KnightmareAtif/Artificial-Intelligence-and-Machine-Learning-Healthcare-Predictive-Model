@@ -25,7 +25,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 - Update File Paths
-  - Locate the cell where the dataset path is defined (e.g., data_path = '...').
+  - Locate the cell where the dataset path is defined (e.g., DATASET_PATH = '...').
   - Update the path to match your Colab or Drive directory structure.
 - Run All Cells
   - Go to Runtime > Run all.
