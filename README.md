@@ -1,0 +1,2 @@
+# Artificial-Intelligence-and-Machine-Learning-Healthcare-Predictive-Model
+AIML-HealthGuard is an integrated diagnostic platform providing risk assessments for heart disease, lung conditions, and breast tumors. This notebook features high-performance models like XGBoost and ResNet50, integrated with SHAP for Explainable AI (XAI) to ensure all medical predictions are transparent and clinically actionable.
