@@ -10,7 +10,9 @@ st.set_page_config(page_title="HealthGuard AI", page_icon="🛡️")
 
 @st.cache_resource
 def load_my_model():
-    return tf.keras.models.load_model('healthguard_xception.keras')
+    # Update the path to match the root-relative location on Streamlit Cloud
+    model_path = 'Brain_APP/healthguard_xception.keras'
+    return tf.keras.models.load_model(model_path)
 
 model = load_my_model()
 
