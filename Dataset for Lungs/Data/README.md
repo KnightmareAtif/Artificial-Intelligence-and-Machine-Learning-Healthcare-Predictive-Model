@@ -1,5 +1,5 @@
 There are four classes of X-ray images :
-- 0 = Normal
-- 1 =
-- 2 =
-- 3 =
+- 0 = Covid 19
+- 1 = Normal
+- 2 = Viral Pneumonia
+- 3 = Bacterial Pneumonia
