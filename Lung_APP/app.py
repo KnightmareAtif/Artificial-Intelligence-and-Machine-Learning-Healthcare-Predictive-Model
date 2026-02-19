@@ -10,7 +10,10 @@ CLASS_NAMES = ['Covid-19', 'Normal', 'Viral Pneumonia', 'Bacterial Pneumonia']
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('lung_disease_model.h5')
+    current_dir = os.path.dirname(__file__)
+    model_path = os.path.join(current_dir, 'lung_disease_model.h5')
+    
+    return tf.keras.models.load_model(model_path)
 
 def get_gradcam(img_array, model, last_conv_layer_name):
     grad_model = tf.keras.models.Model(
